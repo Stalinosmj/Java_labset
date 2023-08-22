@@ -27,6 +27,17 @@ class Manager extends Employee {
     void printSalary() {
         System.out.println("Salary of " + name + " is " + salary);
     }
+
+    //create a details method to print the details of a manager
+    void details() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Address: " + address);
+        System.out.println("Salary: " + salary);
+        System.out.println("Specialization: " + specialization);
+        System.out.println("Department: " + department);
+    }
 }
 
 class Officer extends Employee {
@@ -43,6 +54,17 @@ class Officer extends Employee {
     
     void printSalary() {
         System.out.println("Salary of " + name + " is " + salary);
+    }
+
+    //create a details method to print the details of an officer
+    void details() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Phone Number: " + phoneNumber);
+        System.out.println("Address: " + address);
+        System.out.println("Salary: " + salary);
+        System.out.println("Specialization: " + specialization);
+        System.out.println("Department: " + department);
     }
 }
 
